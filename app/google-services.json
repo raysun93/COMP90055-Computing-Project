@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "725073091707",
+    "firebase_url": "https://cancer-tracker-d3f11.firebaseio.com",
+    "project_id": "cancer-tracker-d3f11",
+    "storage_bucket": "cancer-tracker-d3f11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725073091707:android:4efc2786054daeed",
+        "android_client_info": {
+          "package_name": "com.project.sun.cancertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725073091707-rkboj2jv9pg3a06hfaq0voc1clb9ljvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.sun.cancertracker",
+            "certificate_hash": "905790d0ac31918f90319b1bf3f82f2b7fba710e"
+          }
+        },
+        {
+          "client_id": "725073091707-f7g4l0vqo9jvkal2t5451osnsbvs7c78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKNpuQnwbWMPMYNzdvzSFfIxCysQqZzhM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725073091707-f7g4l0vqo9jvkal2t5451osnsbvs7c78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

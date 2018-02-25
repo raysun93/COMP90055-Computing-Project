@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.project.sun.cancertracker.BristolMainActivity">
+    <TextView
+        android:id="@+id/PoopTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="Poop track"
+        android:textSize="40sp"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PoopTitle"
+        android:id="@+id/group1"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:text="Type choice"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/bristolQuality"/>
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/btn_1"
+            android:background="@drawable/type_1"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:id="@+id/btn_2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/type_2"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group2"
+        android:layout_below="@+id/group1"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/btn_3"
+            android:background="@drawable/type_3"
+            android:layout_gravity="center_vertical"/>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/btn_4"
+            android:background="@drawable/type_4_choosed"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageButton
+            android:id="@+id/btn_5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/type_5"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group3"
+        android:layout_below="@+id/group2"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/btn_6"
+            android:background="@drawable/type_6"
+            android:layout_gravity="center_vertical"/>
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/btn_7"
+            android:background="@drawable/type_7"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:id="@+id/group4"
+        android:layout_below="@+id/group3"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Poop amount"/>
+        <ToggleButton
+            android:id="@+id/amount_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Huge"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textOn="Little" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/group4"
+
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_bristolSubmit"
+            android:text="Submit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_bristolCancel"
+            android:text="Cancel"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
